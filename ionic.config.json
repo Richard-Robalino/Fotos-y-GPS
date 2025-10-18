@@ -1,0 +1,7 @@
+{
+  "name": "foto-geo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
