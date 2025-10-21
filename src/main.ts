@@ -1,6 +1,16 @@
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { provideIonicAngular } from '@ionic/angular/standalone';
+import { provideHttpClient } from '@angular/common/http';
+import { HomePage } from './app/home/home.page';
+import { appRouterProviders } from './app/app.routes';
 
-import { AppModule } from './app/app.module';
+import { defineCustomElements } from '@ionic/pwa-elements/loader';
+defineCustomElements(window);
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.log(err));
+bootstrapApplication(HomePage, {
+  providers: [
+    provideIonicAngular(),
+    provideHttpClient(),
+    ...appRouterProviders,
+  ],
+}).catch(err => console.error(err));

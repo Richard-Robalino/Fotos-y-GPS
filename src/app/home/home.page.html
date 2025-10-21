@@ -1,20 +1,28 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-app>
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title>Foto + GPS (Standalone)</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+  <ion-content class="ion-padding">
+    <ion-button expand="block" (click)="onCapture()" [disabled]="loading">
+      {{ loading ? 'Capturando...' : 'Tomar foto y guardar ubicación' }}
+    </ion-button>
+
+    <ion-list *ngIf="photos.list.length">
+      <ion-item *ngFor="let p of photos.list">
+        <ion-thumbnail slot="start">
+          <img [src]="p.dataUrl" alt="foto" />
+        </ion-thumbnail>
+        <ion-label>
+          <h3>{{ p.timestamp | date:'medium' }}</h3>
+          <p>Lat: {{ p.latitude }}, Lng: {{ p.longitude }}</p>
+          <a [href]="p.mapsUrl" target="_blank" rel="noopener">Ver en Google Maps</a>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+
+    <p *ngIf="!photos.list.length" class="muted">Aún no hay capturas.</p>
+  </ion-content>
+</ion-app>
