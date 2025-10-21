@@ -57,11 +57,23 @@ El enlace de Google Maps sigue la estructura:
 
 > 📷 A continuación puedes añadir imágenes del funcionamiento de la app:
 
-| Pantalla                             | Descripción                                             |
-| ------------------------------------ | ------------------------------------------------------- |
-| ![Captura 1](<img width="1261" height="251" alt="image" src="https://github.com/user-attachments/assets/c36120db-06df-45df-9bba-29512effda06" />) | Interfaz principal de la app                            |
-| ![Captura 2](ruta/a/tu/captura2.png) | Foto tomada con su enlace a Google Maps                 |
-| ![Captura 3](ruta/a/tu/captura3.png) | Archivo de texto generado con la información de la foto |
+ORDENADOR 
+
+<img width="876" height="313" alt="image" src="https://github.com/user-attachments/assets/f7ec126c-58cc-4ef9-bfc4-84e5b4b53659" />
+
+<img width="973" height="770" alt="image" src="https://github.com/user-attachments/assets/2ebf35e6-6624-4f74-b4ff-c0fed1f96e91" />
+
+<img width="421" height="188" alt="image" src="https://github.com/user-attachments/assets/270c54bb-fe80-4fb4-a668-b8c9e6c8c08e" />
+
+<img width="905" height="796" alt="image" src="https://github.com/user-attachments/assets/394c18a4-0640-4ceb-81fc-1b256abb8112" />
+
+GUARDAO DE IMAGEN TXT
+
+<img width="1262" height="528" alt="image" src="https://github.com/user-attachments/assets/7175ff82-edee-457e-afc1-c2ef1deec9b3" />
+
+CELULAR
+
+
 
 ---
 
