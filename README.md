@@ -73,6 +73,17 @@ GUARDAO DE IMAGEN TXT
 
 CELULAR
 
+<img width="318" height="154" alt="image" src="https://github.com/user-attachments/assets/8fcae9cf-3c54-488a-ad9d-e626346b394f" />
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/8bb5d998-9131-4ac6-bf57-49f1d666d2de" />
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/491f8c6f-0c7c-4aac-872c-bbf80fbd1223" />
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/870af84d-2d72-4a40-a263-809ce70096bb" />
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/497f670c-bd58-4546-a5fd-a10c14ff485e" />
+
+GUARDAO DE IMAGEN TXT
 
 
 ---
