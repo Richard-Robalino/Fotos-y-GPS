@@ -53,13 +53,6 @@ El enlace de Google Maps sigue la estructura:
 
 4. Conecta un dispositivo físico o usa un emulador con servicios de ubicación activados.
 
-5. Ejecuta la aplicación desde Android Studio:
-
-   ```
-   ▶ Run 'app'
-   ```
-
----
 
 ## 🖼️ Capturas de Pantalla
 
@@ -67,7 +60,8 @@ El enlace de Google Maps sigue la estructura:
 
 | Pantalla                             | Descripción                                             |
 | ------------------------------------ | ------------------------------------------------------- |
-| ![Captura 1](ruta/a/tu/captura1.png) | Interfaz principal de la app                            |
+| ![Captura 1](<img width="1261" height="251" alt="image" src="https://github.com/user-attachments/assets/c36120db-06df-45df-9bba-29512effda06" />
+) | Interfaz principal de la app                            |
 | ![Captura 2](ruta/a/tu/captura2.png) | Foto tomada con su enlace a Google Maps                 |
 | ![Captura 3](ruta/a/tu/captura3.png) | Archivo de texto generado con la información de la foto |
 
